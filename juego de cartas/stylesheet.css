@@ -1,0 +1,52 @@
+
+/* Esta línea indica que se va a aplicar un conjunto de reglas de estilo al elemento */body {
+    /*Aquí se establece la propiedad de la fuente del texto dentro del elemento <body>*/font-family: Arial, sans-serif;
+    /*Esta línea establece la propiedad de alineación de texto dentro del elemento <body>*/text-align: center;
+    /*Con esta línea le damos color al fondo de la página*/background-color: green;
+  }
+  /*Esta línea indica que se está aplicando un conjunto de reglas de estilo al elemento con la clase game-container*/.game-container {
+   /* Esta regla establece el color del texto dentro del elemento con la clase game-container*/ color: green;
+   /*Establece los márgenes del elemento con la clase game-container.*/ margin: 100px auto;
+   /*Establece el ancho del elemento con la clase game-container en 400 píxeles.*/ width: 400px;
+    /*Agrega un espacio de relleno de 20 píxeles alrededor del contenido dentro del elemento con la clase game-container.*/padding: 20px;
+    /*Crea un borde de 2 píxeles de ancho y sólido alrededor del elemento con la clase game-container.*/border: 2px solid #2d2b2b;
+    /*Aplica un radio de borde de 10 píxeles alrededor de las esquinas del elemento con la clase game-container.*/border-radius: 10px;
+    /*Establece el color de fondo del elemento con la clase game-container*/background-color: #f2f2f2;
+  }
+  /* Esta línea indica que se está aplicando un conjunto de reglas de estilo al elemento o elementos con la clase buttons.*/.buttons {
+   /* Establece un margen superior de 20 píxeles en el elemento o elementos con la clase buttons.*/ margin-top: 20px;
+  }
+  /*Esta línea indica que se está aplicando un conjunto de reglas de estilo a todos los elementos <button>*/button {
+   /*Establece el color del texto dentro de los elementos <button>*/ color: rgb(255, 255, 255);
+   /*Establece el color de fondo de los elementos <button>*/ background-color: green;
+    /*Define el espacio de relleno alrededor del contenido dentro de los elementos <button>*/padding: 10px 20px;
+    /*Establece un margen exterior de 5 píxeles alrededor de los elementos <button>*/margin: 5px;
+    /*define el tamaño de la fuente del texto dentro de los elementos <button>*/font-size: 16px;
+    /*Cambia el cursor del mouse cuando se coloca sobre los elementos <button>*/cursor: pointer;
+   /*Aplica un radio de borde de 5 píxeles a las esquinas de los elementos <button>*/ border-radius: 5px;
+  }
+  /*Esta línea indica que se está aplicando un conjunto de reglas de estilo a todos los elementos con la clase cards*/.cards {
+    /*Esta regla establece cómo se debe mostrar el elemento con la clase cards.
+    inline-block es un valor de la propiedad display que hace que el elemento se muestre en línea como un elemento en línea,
+     pero aún permite aplicar propiedades de bloque, como ancho y alto.
+     Además, los elementos en línea permiten que otros elementos se muestren en la misma línea.*/display: inline-block;
+    /*Esta regla alinea horizontalmente el contenido de los elementos con la clase cards*/justify-content: center;
+    /*Establece un margen superior de 20 píxeles en los elementos con la clase cards*/margin-top: 20px;
+  }
+  /*Esta línea indica que se está aplicando un conjunto de reglas de estilo a todos los elementos con la clase card*/.card {
+   /*Establece el ancho de los elementos con la clase card en 70 píxeles.*/ width: 70px;
+   /*Establece la altura de los elementos con la clase card en 100 píxeles.*/ height: 100px;
+   /*Establece un margen de 0 píxeles en la parte superior e inferior y un margen de 5 
+   píxeles a la izquierda y a la derecha de los elementos con la clase card. */ margin: 0 5px;
+  /*Aplica un radio de borde de 9 píxeles a las esquinas de los elementos con la clase card*/border-radius: 9px;
+   /*Crea un borde de 1 píxel de ancho y sólido alrededor 
+   de los elementos con la clase card, con un color de borde verde.*/ border: 1px solid green;
+  /*Establece el color de fondo de los elementos con la clase card*/background-color: green;
+  }
+  /*Esta línea establece reglas de estilo para personalizar el aspecto de la barra de desplazamiento*/body::-webkit-scrollbar{
+   /*Establece el ancho de la barra de desplazamiento en 5 píxeles*/ width: 5px;
+  }
+ /*Esta línea establece reglas de estilo para personalizar
+  el aspecto del "pulgador" o la parte móvil de la barra de desplazamiento.*/ body::-webkit-scrollbar-thumb{
+ /*Establece el color de fondo del pulgador de la barra de desplazamiento en negro.*/background-color: black;
+  }

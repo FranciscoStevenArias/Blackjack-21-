@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesheet.css"><!--Con esta línea hacemos que el código que está en un archivo aparte de css pueda funcionar 
+      este código-->
+      <link rel="icon" href="/img/a.png" type="image/png"><!-- icono que se muestra en la parte de la pestaña   -->
+    <title>21</title><!-- Nombre del juego que se muestra en la parte de la pestaña   -->
+</head>
+<body>
+    <div class="game-container"> <!-- contenedor de todo el juego -->
+      <h1>JUEGO DEL 21</h1> <!-- nombre del juego -->
+      <div class="cards" id="playerCardContainer">
+        <!-- Contenedor para las cartas del jugador class="cards" id="playerCardContainer" -->
+      </div>
+      <div class="buttons"><!-- contenedor de botones clase buttons -->
+        <button id="dealButton">Pedir Cartas</button> <!-- boton para pedir cartas -->
+        <button id="endButton">Terminar Juego</button> <!-- boton para terminar juego -->
+        <button id="restartButton">Reiniciar Juego</button> <!-- boton de reinicio de juego -->
+      </div>
+      <div class="cards" id="machineCardContainer">
+        <!-- Contenedor para las cartas de la máquina class="cards" id="machineCardContainer" -->
+      </div>
+      <div id="result"></div>  <!-- este contenedor muestra el resultado de la partida-->
+    </div>
+    
+    <script src="./index.js"></script> <!--Con esta línea hacemos que el código que está en un archivo aparte de JavaScript pueda funcionar 
+      este código-->
+  </body>
+</html>
